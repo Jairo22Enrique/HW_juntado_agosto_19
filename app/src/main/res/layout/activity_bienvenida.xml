@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.tensorflow.demo.Introduccion.Bienvenida">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_weight="1"
+                android:layout_height="200dp"
+                android:src="@drawable/helloworldlogo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFF"
+
+                android:text="¡Hola!\nBienvenido a Hello World"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"
+            android:text="La siguiente aplicación ha sido desarrollada pensado en ayudar a las personas con discapacidad.
+A tu disposición tienes herramientas tecnológicas creadas especialmente para ayudarte.
+
+
+
+El equipo de desarrollo espero que te sentan muy útiles, podamos ayudarte a crecer y a que hagas muchas cosas."/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:id="@+id/btn_entendido_bienvenida"
+                android:layout_height="wrap_content"
+                android:text="Entendido" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
